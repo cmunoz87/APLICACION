@@ -4,7 +4,7 @@ import requests
 st.title("Formulario Streamlit conectado a Google Sheets (Apps Script)")
 
 # URL del Web App de Google Apps Script
-WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzoNhl7nQsiEKjnyE2mS9VSotNmhuurDKSfyk5AJ0v5Ol7ahdwKzg_AcnkNtLjbZNS8-w/exec"
+WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwQSrpEwiYXInoyjjcYFiJprdCVfZ9ZG9UZOC7IOekNkh7GEBQQ8hInYtcbcREThe2A2w/exec"
 
 with st.form("formulario"):
     nombre = st.text_input("Nombre")
